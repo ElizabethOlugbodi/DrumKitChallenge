@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body { 
+    height: 40vw;
+    width: 80vw;
+    background-image: url(background.webp);
+    background-repeat: no-repeat;
+}
+
+ .keys {
+     width: 220vh;
+     position:relative;
+     height: 20vh;
+     display:flex;
+     margin: 0 auto;
+     border: 5px solid blue;
+     border-style: solid;
+     top: 3vh;
+     align-items: center;
+     justify-content: space-evenly;  
+     border-radius: 10px;
+     
+
+ }
+
+ .key {
+     border-radius: 1.5rem;
+     border: 0.4em solid red;
+     height: 80%;
+     width: 15%;
+     transition:all 0.07s ease;
+ }
+
+ kbd {
+     display: block;
+     font-size: 3rem;
+     color: rgb(0, 217, 255);
+     text-align: center;
+ }
+
+span {
+    color: navy;
+    font-size:x-large;
+    padding-left: 70px;
+}
+
+.playing {
+    border-color: goldenrod;
+    box-shadow: 0 0 1rem #ffc688;
+    transform: scale(1, 1);
+}
